@@ -7,12 +7,14 @@ Add-on to ACF plugin. Add the possibility to use "Star rating" field in ACF.
 ### Description
 
 Plug-in provide three calculation method for voting:
+
 1. calculate by cookies (any visitor);
 2. by IP (any visitor);
 3. by user id (registered users only).
 If "calculated by cookies" is selected, the only users which use browser with cookies enabled will be able to vote
 
 In field settings you can also:
+
 1. open|close vote;
 2. tune the number of stars (1 to 20);
 3. specify the method of re-voting - possible(period)|never
