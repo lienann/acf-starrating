@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP ACF Star rating Add-on\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-18 21:31+0300\n"
+"PO-Revision-Date: 2014-11-18 21:31+0300\n"
+"Last-Translator: lienann <lienann@yandex.ru>\n"
+"Language-Team: Lienann <lienann@yandex.ru>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: Russia\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: acf-starrating-v4.php:23
+msgid "Star Rating"
+msgstr "\"Звездный\" рейтинг"
+
+#: acf-starrating-v4.php:24
+msgid "jQuery"
+msgstr ""
+
+#: acf-starrating-v4.php:75
+msgid "Number of stars"
+msgstr "Количество звёзд"
+
+#: acf-starrating-v4.php:76
+msgid "From 1 to 20"
+msgstr "Возможные значения: от 1 до 20"
+
+#: acf-starrating-v4.php:94
+msgid "Voting rules"
+msgstr "Правила голосования"
+
+#: acf-starrating-v4.php:106
+msgid "Everyone visitors (used cookie)"
+msgstr "Все могут проголосовать (используется cookie)"
+
+#: acf-starrating-v4.php:107
+msgid "Everyone visitors (used ip)"
+msgstr "Все могут проголосовать (используется ip)"
+
+#: acf-starrating-v4.php:108
+msgid "Only logged users (used user ID)"
+msgstr "Только зарегистрированные пользователи (используется ID пользователя)"
+
+#: acf-starrating-v4.php:119
+msgid "Revote"
+msgstr "Повторное голосование"
+
+#: acf-starrating-v4.php:131
+msgid "Never"
+msgstr "Никогда"
+
+#: acf-starrating-v4.php:132
+msgid "Hour later"
+msgstr "Через час"
+
+#: acf-starrating-v4.php:133
+msgid "Day later"
+msgstr "Через день"
+
+#: acf-starrating-v4.php:134
+msgid "Week later"
+msgstr "Через неделю"
+
+#: acf-starrating-v4.php:135
+msgid "Month later"
+msgstr "Через месяц"
+
+#: acf-starrating-v4.php:136
+msgid "Year later"
+msgstr "Через год"
+
+#: acf-starrating-v4.php:147
+msgid "Voting status"
+msgstr "Состояние голосования"
+
+#: acf-starrating-v4.php:148
+msgid "Closed if the vote?"
+msgstr "Закрыто ли голосование?"
+
+#: acf-starrating-v4.php:159
+msgid "Closed"
+msgstr "Закрыто"
+
+#: acf-starrating.php:109
+#: acf-starrating.php:110
+#: acf-starrating.php:111
+msgid "vote"
+msgid_plural "votes"
+msgstr[0] "голос"
+msgstr[1] "голоса"
+msgstr[2] "голосов"
+
+#: acf-starrating.php:112
+msgid "Your voice:"
+msgstr "Ваш выбор:"
+
+#: functions.php:15
+msgid "Thank you. Your vote was counted."
+msgstr "Спасибо. Ваш голос учтен."
+
+#: functions.php:16
+msgid "Error voting."
+msgstr "Ошибка голосования."
+
+#: functions.php:17
+msgid "Sorry. You can't vote."
+msgstr "Вы уже голосовали за эту статью."
+
+#, fuzzy
+#~ msgid "1 vote"
+#~ msgstr "голос"
+
+#~ msgid "Day"
+#~ msgstr "День"
+
+#~ msgid "Week"
+#~ msgstr "Неделя"
+
+#~ msgid "Month"
+#~ msgstr "Месяц"
+
+#~ msgid "Year"
+#~ msgstr "Год"
+
+#~ msgid "Hour"
+#~ msgstr "Час"
