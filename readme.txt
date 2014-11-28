@@ -17,7 +17,8 @@ Plug-in provide three calculation method for voting:
     1. calculate by cookies (any visitor);
     2. by IP (any visitor);
     3. by user id (registered users only).
-If "calculated by cookies" is selected, the only users which use browser with cookies enabled will be able to vote
+If "calculated by cookies" is selected, the only users which use browser with 
+cookies enabled will be able to vote
 
 In field settings you can also:
     1. open|close vote;
@@ -27,11 +28,15 @@ In field settings you can also:
 Use the_field($field_key, $post_id) or get_field($field_key, $post_id) function
 in page template for field output (see ACF documentation).
 
-Attention! Before removing the plugin files read uninstall.php
+**Attention!** Before removing the plugin files read uninstall.php
 
 I apologize for possible mistakes in plugin translation.
 I will be glad to accept the help with the correct translation of a plugin into
 English and to correction of my mistakes.
+
+**Gratitudes:**
+
+Thanks to Ivan Shamshur for JS.
 
 = Compatibility =
 
@@ -58,7 +63,7 @@ settings.
 2. Field settings in ACF.
 3. Field settings in ACF.
 
-== FAQ ==
+== Frequently Asked Questions ==
 
 = How to display field on the page? =
 
