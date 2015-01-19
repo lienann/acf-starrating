@@ -3,8 +3,8 @@
 /*
 Plugin Name: Advanced Custom Fields: Star Rating Field
 Plugin URI: https://github.com/lienann/acf-starrating
-Description: Add-on to Advanced Custom Fields plugin. Add the possibility to use "Star rating" field in ACF.
-Version: 1.0.0
+Description: Add-on to Advanced Custom Fields plugin. Add the possibility to use "Star rating" field in ACF. Before removing the plugin files read uninstall.php!
+Version: 1.0.1
 Author: lienann
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -140,14 +140,20 @@ function acf_srf_method(){
         'yvoice'    => __('Your voice:', 'acf-srf') )       
         );
 
-    // Setup test cookie. 
-    setcookie( 'acf-srf_test_cookie', 'Cookie check', time()+ DAY_IN_SECONDS, SITECOOKIEPATH);
-    
 }
 
 add_action( 'wp_enqueue_scripts', 'acf_srf_method' );
 add_action( 'admin_enqueue_scripts', 'acf_srf_method' );
 
+/*
+ * Setup test cookie
+ */
+function acf_srf_init() {
+    if ( ! headers_sent() ) {
+        setcookie( 'acf-srf_test_cookie', 'Cookie check', time()+ DAY_IN_SECONDS, SITECOOKIEPATH);;
+    }
+}
+add_action('init', 'acf_srf_init'); 
 
 /**
  * Deleting vote statistics when deleting an object (post, user, etc.).

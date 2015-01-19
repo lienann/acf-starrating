@@ -23,6 +23,8 @@ In field settings you can also:
 Use the_field($field_key, $post_id) or get_field($field_key, $post_id) function
 in page template for field output (see ACF documentation).
 
+In admin panel the rating is inactive.
+
 Attention! Before removing the plugin files read uninstall.php
 
 ### Compatibility
