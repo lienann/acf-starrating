@@ -1,5 +1,7 @@
-div.vote-wrap{
+div.vote-wrap {
     overflow: hidden;
+    padding: 15px 0;
+    position: relative;
 }
 
 div.vote-block{
@@ -25,15 +27,15 @@ div.vote-active{
 }
 
 div.vote-result{
-    color: #ccc;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 12px;
     padding-left: 190px;
 }
 
-div.vote-success{
+div.vote-success {
+    bottom: -2px;
     clear: both;
-    color: #ccc;
-    font-size: 14px;
-    margin: 10px 0 0 10px;
+    font-size: 12px;
+    left: 7px;
+    position: absolute;
 }
