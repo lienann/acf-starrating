@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP ACF Star rating Add-on\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-22 10:52+0300\n"
+"PO-Revision-Date: 2015-03-22 10:52+0300\n"
+"Last-Translator: lienann <lienann@yandex.ru>\n"
+"Language-Team: Nicolas Kern <nicolas@nicolaskern.fr>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: acf-starrating-v4.php:23
+msgid "Star Rating"
+msgstr "Vote"
+
+#: acf-starrating-v4.php:24
+msgid "jQuery"
+msgstr "jQuery"
+
+#: acf-starrating-v4.php:75
+msgid "Number of stars"
+msgstr "Nombre d'étoiles"
+
+#: acf-starrating-v4.php:76
+msgid "From 1 to 20"
+msgstr "De 1 à 20"
+
+#: acf-starrating-v4.php:94
+msgid "Voting rules"
+msgstr "Règles de vote"
+
+#: acf-starrating-v4.php:106
+msgid "Everyone visitors (used cookie)"
+msgstr "Visiteurs (utilisation des cookies)"
+
+#: acf-starrating-v4.php:107
+msgid "Everyone visitors (used ip)"
+msgstr "Visiteurs (utilisation de l'adresse IP)"
+
+#: acf-starrating-v4.php:108
+msgid "Only logged users (used user ID)"
+msgstr "Utilisateurs connectés uniquement (identifiants utilisateurs)"
+
+#: acf-starrating-v4.php:119
+msgid "Revote"
+msgstr "Revoter"
+
+#: acf-starrating-v4.php:131
+msgid "Never"
+msgstr "Jamais"
+
+#: acf-starrating-v4.php:132
+msgid "Hour later"
+msgstr "1 heure après"
+
+#: acf-starrating-v4.php:133
+msgid "Day later"
+msgstr "1 jour après"
+
+#: acf-starrating-v4.php:134
+msgid "Week later"
+msgstr "1 semaine après"
+
+#: acf-starrating-v4.php:135
+msgid "Month later"
+msgstr "1 mois après"
+
+#: acf-starrating-v4.php:136
+msgid "Year later"
+msgstr "1 an après"
+
+#: acf-starrating-v4.php:147
+msgid "Voting status"
+msgstr "Statut du vote"
+
+#: acf-starrating-v4.php:148
+msgid "Closed if the vote?"
+msgstr "Fermé si déjà voté ?"
+
+#: acf-starrating-v4.php:159
+msgid "Closed"
+msgstr "Fermé"
+
+#: acf-starrating.php:137
+#: acf-starrating.php:138
+#: acf-starrating.php:139
+msgid "vote"
+msgid_plural "votes"
+msgstr[0] "vote"
+msgstr[1] "votes"
+msgstr[2] "votes"
+
+#: acf-starrating.php:140
+msgid "Your voice:"
+msgstr "Votre vote :"
+
+#: functions.php:13
+msgid "Thank you. Your vote was counted."
+msgstr "Merci, votre vote a bien été pris en compte !"
+
+#: functions.php:14
+msgid "Error voting."
+msgstr "Erreur lors du vote"
+
+#: functions.php:15
+msgid "Sorry. You can't vote."
+msgstr "Désolé, vous ne pouvez pas voter"
+

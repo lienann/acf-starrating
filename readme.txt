@@ -2,8 +2,8 @@
 Contributors: lienann
 Tags: acf, acf4, advanced custom fields, star rating, rate, rating, 5 star, post rating, user rating
 Requires at least: 3.5
-Tested up to: 4.1
-Stable tag: 1.0.1
+Tested up to: 4.1.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,7 +35,7 @@ In admin panel the rating is inactive.
 
 **Attention!** Before removing the plugin files read uninstall.php
 
-**Languages:** English, Русский
+**Languages:** English, Français, Русский
 
 I apologize for possible mistakes in plugin translation.
 I will be glad to accept the help with the correct translation of a plugin into
@@ -44,6 +44,8 @@ English and to correction of my mistakes.
 = Gratitudes: =
 
 Thanks to Ivan Shamshur for JS.
+
+French Translation - thanks to Nicolas Kern.
 
 = Compatibility =
 
@@ -62,6 +64,9 @@ Please refer to the description and FAQ for more info regarding the field type
 settings.
 
 == Changelog ==
+
+= 1.0.2 =
+* Added French Translation. Thanks to Nicolas Kern.
 
 = 1.0.1 =
 * Fixed bug with cookie setup.

@@ -4,7 +4,7 @@
 Plugin Name: Advanced Custom Fields: Star Rating Field
 Plugin URI: https://github.com/lienann/acf-starrating
 Description: Add-on to Advanced Custom Fields plugin. Add the possibility to use "Star rating" field in ACF. Before removing the plugin files read uninstall.php!
-Version: 1.0.1
+Version: 1.0.2
 Author: lienann
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
