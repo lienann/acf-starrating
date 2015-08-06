@@ -150,7 +150,15 @@ add_action( 'admin_enqueue_scripts', 'acf_srf_method' );
  */
 function acf_srf_init() {
     if ( ! headers_sent() ) {
-        setcookie( 'acf-srf_test_cookie', 'Cookie check', time()+ DAY_IN_SECONDS, SITECOOKIEPATH);;
+        if(setcookie( 'acf-srf_test_cookie', 'Cookie check', time()+ DAY_IN_SECONDS, SITECOOKIEPATH))
+        {
+        	/*
+        	$_COOKIE is empty when first time user loads star rating contained page, so it doesn't allow to rate,
+        	So again user has to reload the page to rate, becuase this $_COOKIE['acf-srf_test_cookie'] checked in
+        	acf_srf_check_permission()
+        	*/
+        	$_COOKIE['acf-srf_test_cookie'] = 'Cookie+check';
+        }
     }
 }
 add_action('init', 'acf_srf_init'); 
